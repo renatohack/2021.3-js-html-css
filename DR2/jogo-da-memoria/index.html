@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+  <script charset="utf8">
+    var app = { nrComponentes: 0 };
+    app.getComponente = function (nome) {
+      if (!app[nome]) {
+        app[nome] = {};
+        app[app.nrComponentes++] = nome;
+      }
+      return app[nome];
+    };
+  </script>
+
+  <header>
+    <h1>Jogo da Memória</h1>
+    <p id="tempo"></p>
+  </header>
+
+  <div id="jogo">
+    <button id="botao-iniciar">Começar novo jogo!</button>
+  <div id="tabuleiro"></div>
+  </div>
+  <script src="script.js" charset="utf8"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+Surprise-me 
+   Integração com API Sympla.
+   Integração com Surprise-me-data-API (Banco de dados).
+
+Surprise-me-data-API
+   Integração com o Banco de Dados (MonogoDB)
+   start:{
+      Para rodar a api, é precisso que selecione atraves do terminal a pasta da Api, logo em seguida 
+      dar o comando "nodemon .\src\server.js", isso deixara o sistema rodando.
+      test{
+         Atraves do Postman foi possivel realizar teste de persistencia de objeto no MongoDB,
+         apesar de não ter testado a parte do token tão fielmente, ele esta funcionado como request.
+      }
+   }
+   issues:{
+      1.A api já esta funcionando.
+      2.Falta começar a criar a estrutura do front com o Vue.js para teste direto com o sistema.
+      3.as regras de negocio estão todas na Api do sistema, autenticação,metodo de listagens, busta,
+       o sistema só vai trabalahr para mostar isso para o ussuario.
+      4.precissa ver com o professor se é possivel fazer a integração com algum framework de css.
+      5.Configurar a Api com o sistema do professor.
+      6.Pensar em imcorporar um websocket para o chat.
+      7.Go Go !
+      
+   }
